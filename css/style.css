@@ -1,0 +1,145 @@
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Mis estilos ¬¬ no los toques prro!*/
+nav,.logo,.nav-items,.nav-items ul,.nav-items li,.intro,.intro-contenedor{
+	display: flex;
+}
+body{
+	background-color: green;
+	margin-bottom: 200em;
+}
+nav{
+	width: 100vw;
+	height: 6vh;
+	justify-content: space-around;
+	/*background-color: blue;*/
+	position: fixed;
+	top:1em;
+}
+.logo{
+	margin-left: 5em;
+	width: 20vw;
+	/*background: peru;*/
+	justify-content: center;
+	align-items: center;
+}
+.logo a{
+	/*background-color: red;*/
+	text-decoration: none;
+	font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+	color:#fed136;
+	font-size: 1.8em;
+}
+.nav-items{
+	width: 30vw;
+	/*background-color: red;*/
+	margin-right: 8em;
+}
+.nav-items a{
+	text-decoration: none;
+	color:white;
+	font-size: .9em;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.nav-items ul{
+	width: 100%;
+	justify-content: space-around;
+}
+.nav-items li{
+	align-items: center; 
+}
+.intro{
+	width: 100vw;
+	height: 76vh;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../imagen/header-bg.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.intro-contenedor{
+	width: 80%;
+	height: 80%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.intro-titulo{
+	text-align: center;
+	margin-bottom: 0.3em;
+}
+.intro-titulo h3{
+	margin-top:3.3em; 
+	font-size:40px;
+	line-height: 0;
+	font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: white;
+}
+.intro-titulo h1{
+	font-weight: 700;
+    font-size: 70px;
+    line-height: 75px;
+	color: white;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-transform: uppercase;	
+}
+.intro-boton{
+	width: 14em;
+	border-radius: 4px;
+	background-color:#fed136;
+	border-color: #fed136;
+	text-align: center; 
+}
+.intro-boton a{
+	display: block;
+	text-decoration: none;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 900;
+	color:white;
+	text-transform: uppercase;
+	font-size: 1.01em;
+	line-height: 4.5em;
+}
